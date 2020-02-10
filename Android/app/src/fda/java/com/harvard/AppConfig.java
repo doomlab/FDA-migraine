@@ -1,14 +1,13 @@
 package com.harvard;
 
-public class AppConfig {
-
+public class AppConfig
+{
     public static String PackageName = BuildConfig.APPLICATION_ID;
     public static String API_TOKEN = "<value of android.bundleid>:<value of android.apptoken>";
     static String GateWay = "gateway";
     static String Standalone = "standalone";
     public static String AppType = GateWay;
     public static String StudyId = "STUDY_ID_FROM_WCP";
-
 
     //AppId
     public static String APP_ID_KEY = "applicationId";
