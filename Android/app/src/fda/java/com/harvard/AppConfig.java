@@ -7,11 +7,11 @@ public class AppConfig
     static String GateWay = "gateway";
     static String Standalone = "standalone";
     public static String AppType = GateWay;
-    public static String StudyId = "STUDY_ID_FROM_WCP";
+    public static String StudyId = "NOT REQUIRED FOR A GATEWAY APP (CAN LEAVE IT AS BLANK)";
 
     //AppId
     public static String APP_ID_KEY = "applicationId";
-    public static String APP_ID_VALUE = "APP_ID_FROM_WCP";
+    public static String APP_ID_VALUE = "TESTAPPLICATION";
     //OrgId
     public static String ORG_ID_KEY = "orgId";
     public static String ORG_ID_VALUE = "OrgName";
