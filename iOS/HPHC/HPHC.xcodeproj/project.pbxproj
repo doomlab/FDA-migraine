@@ -1484,8 +1484,9 @@
 				TargetAttributes = {
 					6E7D2D551E433E8700763D4C = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 679T7V8A6A;
 						LastSwiftMigration = 1010;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -1500,13 +1501,13 @@
 					};
 					7878B3192216C6E10052FC23 = {
 						CreatedOnToolsVersion = 10.1;
-						DevelopmentTeam = T5N3W5L4HF;
+						DevelopmentTeam = 679T7V8A6A;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 6E7D2D551E433E8700763D4C;
 					};
 					89055917230149AD005FB284 = {
 						CreatedOnToolsVersion = 10.2;
-						DevelopmentTeam = 3485DDCN2M;
+						DevelopmentTeam = 679T7V8A6A;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 6E7D2D551E433E8700763D4C;
 					};
@@ -2133,18 +2134,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = HPHC/FDA.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 71;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 679T7V8A6A;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = HPHC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				IS_STANDALONE_STUDY = false;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clinvest.migraine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "HPHC/Controllers/LoginRegisterUI/FDA-Bridging-Header.h";
@@ -2164,18 +2165,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = HPHC/FDA.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 71;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 679T7V8A6A;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = HPHC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				IS_STANDALONE_STUDY = false;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clinvest.migraine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "HPHC/Controllers/LoginRegisterUI/FDA-Bridging-Header.h";
@@ -2197,7 +2198,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T5N3W5L4HF;
+				DEVELOPMENT_TEAM = 679T7V8A6A;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = HPHCTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
@@ -2223,7 +2224,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T5N3W5L4HF;
+				DEVELOPMENT_TEAM = 679T7V8A6A;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = HPHCTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
@@ -2247,7 +2248,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3485DDCN2M;
+				DEVELOPMENT_TEAM = 679T7V8A6A;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = HPHCUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
@@ -2272,7 +2273,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3485DDCN2M;
+				DEVELOPMENT_TEAM = 679T7V8A6A;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = HPHCUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
