@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -130,7 +130,6 @@
 		7878B311221574D80052FC23 /* StandaloneStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7878B30E221574D80052FC23 /* StandaloneStudy.swift */; };
 		7878B31D2216C6E20052FC23 /* HPHCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7878B31C2216C6E20052FC23 /* HPHCTests.swift */; };
 		7A7A750924035116007069D8 /* ResearchKitTests in Resources */ = {isa = PBXBuildFile; fileRef = 7A7A750624035116007069D8 /* ResearchKitTests */; };
-		7ABFDF2D240357E600B2E603 /* SlideMenuController in Frameworks */ = {isa = PBXBuildFile; productRef = 7ABFDF2C240357E600B2E603 /* SlideMenuController */; };
 		83E41E58CE40BA32BA0F019B /* Pods_HPHCUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4CF7BB238C017BF7E2A6346 /* Pods_HPHCUITests.framework */; };
 		89055913230148FD005FB284 /* Branding.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89055912230148FD005FB284 /* Branding.plist */; };
 		8905591B230149AD005FB284 /* HPHCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8905591A230149AD005FB284 /* HPHCUITests.swift */; };
@@ -516,7 +515,6 @@
 			files = (
 				6EEBA47A1F25FAA100FB0258 /* HealthKit.framework in Frameworks */,
 				972663AD23F7242B537B8E82 /* Pods_HPHC.framework in Frameworks */,
-				7ABFDF2D240357E600B2E603 /* SlideMenuController in Frameworks */,
 				89EDB46C2271EFDF0070F16C /* ResearchKit.framework in Frameworks */,
 				041AEB90AC42096B113333ED /* (null) in Frameworks */,
 			);
@@ -1435,7 +1433,6 @@
 			);
 			name = HPHC;
 			packageProductDependencies = (
-				7ABFDF2C240357E600B2E603 /* SlideMenuController */,
 			);
 			productName = FDA;
 			productReference = 6E7D2D561E433E8700763D4C /* HPHC.app */;
@@ -1569,7 +1566,6 @@
 			);
 			mainGroup = 6E7D2D4D1E433E8700763D4C;
 			packageReferences = (
-				7ABFDF2B240357E600B2E603 /* XCRemoteSwiftPackageReference "SlideMenuControllerSwift" */,
 			);
 			productRefGroup = 6E7D2D571E433E8700763D4C /* Products */;
 			projectDirPath = "";
@@ -1687,15 +1683,12 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HPHCUITests/Pods-HPHCUITests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Embassy/Embassy.framework",
-				"${BUILT_PRODUCTS_DIR}/EnvoyAmbassador/EnvoyAmbassador.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HPHCUITests/Pods-HPHCUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Embassy.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EnvoyAmbassador.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HPHCUITests/Pods-HPHCUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1707,25 +1700,12 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HPHC/Pods-HPHC-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework",
-				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
-				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
-				"${BUILT_PRODUCTS_DIR}/SlideMenuControllerSwift/SlideMenuControllerSwift.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HPHC/Pods-HPHC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ActionSheetPicker_3_0.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SlideMenuControllerSwift.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HPHC/Pods-HPHC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -2076,7 +2056,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -2131,6 +2111,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -2362,25 +2343,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		7ABFDF2B240357E600B2E603 /* XCRemoteSwiftPackageReference "SlideMenuControllerSwift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Nomad00/SlideMenuControllerSwift";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		7ABFDF2C240357E600B2E603 /* SlideMenuController */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7ABFDF2B240357E600B2E603 /* XCRemoteSwiftPackageReference "SlideMenuControllerSwift" */;
-			productName = SlideMenuController;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6E7D2D4E1E433E8700763D4C /* Project object */;
 }
