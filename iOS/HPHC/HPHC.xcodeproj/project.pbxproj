@@ -415,6 +415,7 @@
 		7878B31C2216C6E20052FC23 /* HPHCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPHCTests.swift; sourceTree = "<group>"; };
 		7878B31E2216C6E20052FC23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A7A750624035116007069D8 /* ResearchKitTests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ResearchKitTests; sourceTree = "<group>"; };
+		7AC979442403828200027E38 /* ORKNavigationContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ORKNavigationContainerView.m; path = ResearchKit/Common/ORKNavigationContainerView.m; sourceTree = "<group>"; };
 		7BDC002620C7855C409516D3 /* Pods-HPHC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPHC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HPHC/Pods-HPHC.debug.xcconfig"; sourceTree = "<group>"; };
 		89055912230148FD005FB284 /* Branding.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Branding.plist; sourceTree = "<group>"; };
 		89055918230149AD005FB284 /* HPHCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPHCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -514,8 +515,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EEBA47A1F25FAA100FB0258 /* HealthKit.framework in Frameworks */,
-				972663AD23F7242B537B8E82 /* Pods_HPHC.framework in Frameworks */,
 				89EDB46C2271EFDF0070F16C /* ResearchKit.framework in Frameworks */,
+				972663AD23F7242B537B8E82 /* Pods_HPHC.framework in Frameworks */,
 				041AEB90AC42096B113333ED /* (null) in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -636,6 +637,7 @@
 		6E7D2D4D1E433E8700763D4C = {
 			isa = PBXGroup;
 			children = (
+				7AC979442403828200027E38 /* ORKNavigationContainerView.m */,
 				6EF0BC352223D1D5004F2357 /* ResearchKit.xcodeproj */,
 				6E7D2D581E433E8700763D4C /* HPHC */,
 				7878B31B2216C6E20052FC23 /* HPHCTests */,
@@ -2056,12 +2058,13 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -2111,12 +2114,13 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s";
 			};
 			name = Release;
 		};
