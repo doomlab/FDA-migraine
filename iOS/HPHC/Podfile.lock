@@ -15,11 +15,11 @@ PODS:
     - URITemplate (~> 3.0)
   - Mockingjay/XCTest (3.0.0-alpha.1):
     - Mockingjay/Core
-  - Realm (3.19.0):
-    - Realm/Headers (= 3.19.0)
-  - Realm/Headers (3.19.0)
-  - RealmSwift (3.19.0):
-    - Realm (= 3.19.0)
+  - Realm (3.20.0):
+    - Realm/Headers (= 3.20.0)
+  - Realm/Headers (3.20.0)
+  - RealmSwift (3.20.0):
+    - Realm (= 3.20.0)
   - SDWebImage (5.2.2):
     - SDWebImage/Core (= 5.2.2)
   - SDWebImage/Core (5.2.2)
@@ -35,7 +35,7 @@ DEPENDENCIES:
   - Fabric
   - IQKeyboardManagerSwift
   - Mockingjay (= 3.0.0-alpha.1)
-  - RealmSwift
+  - RealmSwift (~> 3.20.0)
   - SDWebImage
   - SlideMenuControllerSwift (from `https://github.com/AtomicSLLC/SlideMenuControllerSwift.git`, branch `swift5`)
 
@@ -73,12 +73,12 @@ SPEC CHECKSUMS:
   Fabric: 706c8b8098fff96c33c0db69cbf81f9c551d0d74
   IQKeyboardManagerSwift: 9ac7524fad9f9fe9a3b98c927e7772471ca546d2
   Mockingjay: 0f7c5aa49c7f1b95621cee3c79b557141f5a225c
-  Realm: 995d585bcf699aaff226715886c849a29dd3d07f
-  RealmSwift: 35f284a537989f2187b413e5917091948cb87a3f
+  Realm: 8b2ca5bc6479a91f379b6b42b5922e396cd5ba5a
+  RealmSwift: 1949ef26a279e1845bd51d591b9103adfcd121df
   SDWebImage: 5fcdb02cc35e05fc35791ec514b191d27189f872
   SlideMenuControllerSwift: d740ea24105a658fe6a8c256f2bf5832fee7c047
   URITemplate: 58e0d47f967006c5d59888af5356c4a8ed3b197d
 
-PODFILE CHECKSUM: dc0eb85ce5b1c027ee12d03eab98c8c7acaa35c5
+PODFILE CHECKSUM: 095bacbc306ea99a3cf86dc602016f9191afb56b
 
-COCOAPODS: 1.8.3
+COCOAPODS: 1.8.4
