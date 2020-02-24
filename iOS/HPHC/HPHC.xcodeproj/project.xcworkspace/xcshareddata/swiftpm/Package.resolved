@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SlideMenuController",
+        "repositoryURL": "https://github.com/Nomad00/SlideMenuControllerSwift",
+        "state": {
+          "branch": "master",
+          "revision": "8201e7b8cb9b914fe2d97e9d6a4e77ac4e2e9c59",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
