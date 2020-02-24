@@ -55,8 +55,8 @@ enum WCPMethods: String {
 
 struct Credentials {
     
-    static let username: String = "username"
-    static let authToken: String = "authToken"
+    static let username: String = "com.clinvest.migraine"
+    static let authToken: String = "679T7V8A6A"
     
     static var token: String {
         return username + ":" + authToken
@@ -69,8 +69,8 @@ struct WCPServerURLConstants {
     //TODO: Set the server end points
     
     //Staging
-    static let ProductionURL = "Your production server URL"
-    static let DevelopmentURL = "Your development server URL"
+    static let ProductionURL = "app.clinvest.com"
+    static let DevelopmentURL = "app.clinvest.com"
     
 }
 

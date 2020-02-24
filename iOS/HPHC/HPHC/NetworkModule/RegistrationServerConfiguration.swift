@@ -77,8 +77,8 @@ struct RegistrationServerURLConstants {
     //TODO: Set the server end points
     
     //Staging server
-    static let ProductionURL = "Your production server URL"
-    static let DevelopmentURL = "Your development server URL"
+    static let ProductionURL = "app.clinvest.com"
+    static let DevelopmentURL = "app.clinvest.com"
     
 }
 
